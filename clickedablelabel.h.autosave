@@ -1,0 +1,19 @@
+#ifndef CLICKEDABLELABEL_H
+#define CLICKEDABLELABEL_H
+
+#include <QWidget>
+#include <QLabel>
+#include <Qt>
+
+class ClickedableLabel : public QLabel
+{
+    Q_OBJECT
+public:
+    explicit ClickedableLabel(QWidget *parent =  Q_NULLPTR, Qt::window);
+
+signals:
+
+public slots:
+};
+
+#endif // CLICKEDABLELABEL_H
